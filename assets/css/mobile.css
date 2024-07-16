@@ -1,0 +1,25 @@
+@media only screen and (max-width: 768px) {
+    main .box-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main .box-info .icon img {
+        max-width: 48px;
+    }
+
+    main .box-info .text {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .box-info .text h3 {
+        font-size: 1.1rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+        line-height: 20px;
+    }
+}
